@@ -13,3 +13,4 @@ twitter = tweepy.API(auth)
 
 # Ask questions
 tweet = input("Enter your tweet: ")
+twitter.update_status(status=tweet)
